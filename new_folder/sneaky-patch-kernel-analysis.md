@@ -84,7 +84,7 @@ The description and author are suspicious and suggest the module is not part of 
 Further analysis was performed using strings:
 
 ```bash
-strings /lib/modules/6.8.0-1016-aws/kernel/drivers/misc/spatch.ko
+	strings /lib/modules/6.8.0-1016-aws/kernel/drivers/misc/spatch.ko
 ```
 
 Key output:
