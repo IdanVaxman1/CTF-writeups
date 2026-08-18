@@ -27,8 +27,7 @@ A1berto
 From the event I could also see that the account was created by the user `James`.
 
 
-![[1.png]]
-
+![Account Creation](screenshots/account-creation.png)
 
 Some important information from the event:
 
@@ -65,7 +64,7 @@ index=main EventID=13 Hostname="Micheal.Beaven" "A1berto"
 
 This helped me find the registry change related to the new account.
 
-![[2.png]]
+![Registry Modification](screenshots/registry-modification.png)
 
 Registry path:
 
@@ -116,7 +115,8 @@ One of them contained this command:
 WMIC.exe /node:WORKSTATION6 process call create "net user /add A1berto [REDACTED]"
 ```
 
-![[3.png]]
+![WMIC Remote Execution](screenshots/wmic-remote-execution.png)
+
 
 The important part was:
 
@@ -205,7 +205,8 @@ One of the PowerShell commands contained:
 powershell.exe -noP -sta -w 1 -enc ...
 ```
 
-  ![[4 1.png]]
+![Encoded PowerShell](screenshots/encoded-powershell.png)
+
 
 The `-enc` parameter means that the PowerShell command was encoded.
 
