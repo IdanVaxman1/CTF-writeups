@@ -72,7 +72,8 @@ Registry path:
 	HKLM\SAM\SAM\Domains\Account\Users\Names\A1berto
 ```
 
-At this point I knew that the attacker did more than just create the account. There was also a registry change connected to it.
+This registry event was related to the newly created A1berto account.
+
 
 ## Finding the User Being Impersonated
 
