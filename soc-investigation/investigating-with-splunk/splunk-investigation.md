@@ -283,7 +283,7 @@ After going through the logs I was able to connect the different events.
 |PowerShell process|powershell.exe|
 |Remote IP|10.10.10.5|
 |URL|[http://10.10.10.5/news.php](http://10.10.10.5/news.php)|
-|Registry path|[INSERT REGISTRY PATH]|
+|Registry path| HKLM\SAM\SAM\Domains\Account\Users\Names\A1berto|
 
 ## MITRE ATT&CK
 
