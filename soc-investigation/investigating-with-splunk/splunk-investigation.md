@@ -69,7 +69,7 @@ This helped me find the registry change related to the new account.
 Registry path:
 
 ```text
-	79
+	HKLM\SAM\SAM\Domains\Account\Users\Names\A1berto
 ```
 
 At this point I knew that the attacker did more than just create the account. There was also a registry change connected to it.
