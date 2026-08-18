@@ -252,7 +252,7 @@ The full URL was:
 http://10.10.10.5/news.php
 ```
 
-## Investigation Timeline
+## Attack Chain
 
 After going through the logs I was able to connect the different events.
 
@@ -264,9 +264,7 @@ After going through the logs I was able to connect the different events.
 |Remote command execution|Event ID 4688|
 |WMIC used against WORKSTATION6|CommandLine|
 |Backdoor account created with net.exe|Process creation|
-|Suspicious PowerShell found|Event ID 4688|
-|PowerShell activity logged|Event ID 4103 and 4104|
-|Encoded command decoded|PowerShell analysis|
+|Suspicious PowerShell activity | Event IDs 4103 and 4104
 |Web request found|PowerShell script|
 |Full URL identified|[http://10.10.10.5/news.php](http://10.10.10.5/news.php)|
 
