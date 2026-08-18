@@ -263,7 +263,6 @@ After going through the logs I was able to connect the different events.
 |Remote command execution|Event ID 4688|
 |WMIC used against WORKSTATION6|CommandLine|
 |Backdoor account created with net.exe|Process creation|
-|Login activity from A1berto|Authentication events|
 |Suspicious PowerShell found|Event ID 4688|
 |PowerShell activity logged|Event ID 4103 and 4104|
 |Encoded command decoded|PowerShell analysis|
