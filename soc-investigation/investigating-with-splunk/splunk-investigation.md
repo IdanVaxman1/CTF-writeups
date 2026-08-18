@@ -196,7 +196,7 @@ index=main Hostname="James.browne" (EventID=4103 OR EventID=4104)
 ```
 
 
-The search returned **79 events** related to the malicious PowerShell execution.
+Within the investigation time range, the search returned 79 PowerShell events.
 
 One of the PowerShell commands contained:
 
@@ -295,7 +295,7 @@ Some of the activity found in the investigation can be connected to MITRE ATT&CK
 |PowerShell execution|PowerShell|
 |Encoded PowerShell|Obfuscated Files or Information|
 
-## Detection Ideas
+## Hunting and Detection Ideas
 
 After finishing the investigation I also looked at how some of this activity could be detected in Splunk.
 
