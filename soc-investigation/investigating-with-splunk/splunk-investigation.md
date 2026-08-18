@@ -178,8 +178,6 @@ Number of login attempts found:
 0
 ```
 
-This showed that there was login activity involving the backdoor account after it was created.
-
 ## Suspicious PowerShell Activity
 
 Later in the investigation I found suspicious PowerShell activity.
